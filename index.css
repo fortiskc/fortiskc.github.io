@@ -1,0 +1,64 @@
+body {
+	background-image: url("white.jpg");
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 10px;
+}
+span {
+	text-decoration: underline;
+	color: #808080;
+	outline-color: grey;
+	font-size: 20px;
+	font-family: Calibri;
+}
+
+#about {
+	color: #808080;
+	font-size: 18px;
+}
+
+.clear {
+	clear:both;
+}
+
+img {
+	position: absolute;
+	top: 20px;
+	right: 280px;
+	border: 8px solid white;
+	background: url(dp.jpg) no-repeat;
+    -webkit-transform: rotate(358deg);
+    -moz-transform: rotate(358deg);
+    -ms-transform: rotate(358deg);
+    -o-transform: rotate(358deg);
+    transform: rotate(358deg);
+
+}
+
+dt { 
+    font-style: italic; 
+    font-size: 18px;
+    text-align: right; 
+    padding: 0 20px 0 0; 
+    width: 200px; 
+    float: left; 
+    height: 100px; 
+    border-right: 1px solid #808080;  
+}
+
+dd { 
+	position: relative;
+	left:15px;
+	bottom:100px;
+	width: 600px; 
+	float: right; 
+	padding: 15px 0 0x 20px;
+}
+
+dd.clear { 
+	height: 15px;
+	float: none; 
+	margin: 0; 
+
+}
+    
